@@ -6,5 +6,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./administrador.component.css']
 })
 export class AdministradorComponent {
+  //propiedades 
+  public autos: any[] =[];
 
+  //el constructor es la primera funcion que se ejecuta cuando se inicializa el componente
+
+  constructor(){
+    this.littelponi();
+    console.log(this.autos);
+    
+  }
+
+  //metodos
+
+
+  littelponi(){
+    console.log("va pepe luis");
+    
+  }
 }
